@@ -61,22 +61,19 @@ form {
    margin: 0 auto;
     
 }
-@media screen and (max-width: 300px) {
-    span.psw {
-        display: block;
-        float: none;
-    }
-    .cancelbtn {
-        width: 100%;
-    }
+@media only screen and (max-device-width: 550px) {
+.form-image {
+width: 50%;
 }
+}
+
 
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.2.0/zxcvbn.js"></script>
 
 <body>
 
-<form method="POST" action="register.inc.php" style="width:90vw" class="pure-form">
+<form method="POST" action="register.inc.php" style="width:50%" class="pure-form">
 <div class="container">
 <h1 Align=center> Register form </h1>
 <p Align=center> please fill in this form to create an account </p>
